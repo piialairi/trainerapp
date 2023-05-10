@@ -5,7 +5,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import { TimePicker } from '@mui/x-date-pickers/TimePicker';
+//import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import EditIcon from '@mui/icons-material/Edit';
 
 export default function Editworkout(props) {
@@ -75,21 +75,3 @@ export default function Editworkout(props) {
         </div>
     )
 }
-
-/*<TextField
-                        margin="dense"
-                        label="date"
-                        value={workout.date}
-                        onChange={(e) => setWorkout({ ...workout, date: e.target.value })}
-                        fullWidth
-                        variant="standard"
-                    />
-                    
-                     <TimePicker
-                            label="Starting time"
-                            value={workout.time}
-                            format='HH.mm'
-                            onChange={newValue => {
-                                setWorkout({ ...workout, time: newValue });
-                            }}
-                        />*/

@@ -111,35 +111,3 @@ export default function Workoutlist() {
     )
 
 }
-
-/*{
-       field: 'time', sortable: true, filter: true, width: 150, floatingFilter: true,
-       valueFormatter: params => dayjs(params.value).format('HH:mm')
-       },*/
-       //{ field: 'customer', sortable: true, filter: true, width: 160, floatingFilter: true },
-/*{
-   field: 'date', sortable: true, filter: true, width: 180, floatingFilter: true, valueFormatter: params => new Date(params.value).toISOString()
-},*/
-/*{
-         cellRenderer: params =>
-             <Editworkout updateWorkout={updateWorkout}
-                 params={params.data} />,
-         width: 70
-     },*/
-/*const updateWorkout = (url, updateWorkout) => {
-    fetch(url, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(updateWorkout)
-    })
-        .then(response => {
-            if (response.ok) {
-                setMsg("Workout edited succesfully");
-                setOpen(true)
-                getWorkouts();
-            }
-            else
-                alert("Something went wrong updating workout " + response.statusText)
-        })
-        .catch(err => console.error(err));
-}*/
