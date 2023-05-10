@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/traineeapp/static/css/main.cd827901.css",
+    "main.js": "/traineeapp/static/js/main.6ff31b7a.js",
+    "static/js/787.01468ab2.chunk.js": "/traineeapp/static/js/787.01468ab2.chunk.js",
+    "index.html": "/traineeapp/index.html",
+    "main.cd827901.css.map": "/traineeapp/static/css/main.cd827901.css.map",
+    "main.6ff31b7a.js.map": "/traineeapp/static/js/main.6ff31b7a.js.map",
+    "787.01468ab2.chunk.js.map": "/traineeapp/static/js/787.01468ab2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd827901.css",
+    "static/js/main.6ff31b7a.js"
+  ]
+}
