@@ -21,6 +21,7 @@ Welcome to Trainer App! This React application provides an easy way to manage yo
   <li>Delete training sessions with user confirmation</li>
   <li>Enter the training session date using a suitable component</li>
   </ul>
+  
 ### Usage
 <ol>
 <li>Clone the repository
